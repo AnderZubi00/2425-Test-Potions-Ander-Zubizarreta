@@ -1,4 +1,4 @@
-import { Antidote_Values } from "../constants/constants_potions";
+import { Antidote_Values } from "../constants_potions";
 import { Disease } from "../interfaces/potions/Disease";
 import { Modifiers } from "../interfaces/potions/Modifier";
 import Potion from "./Potion";

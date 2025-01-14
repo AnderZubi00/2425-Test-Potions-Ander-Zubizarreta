@@ -1,4 +1,4 @@
-import { Stench_Value } from "../constants/constants_potions";
+import { Stench_Value } from "../constants_potions";
 import { Modifiers } from "../interfaces/potions/Modifier";
 import Potion from "./Potion";
 

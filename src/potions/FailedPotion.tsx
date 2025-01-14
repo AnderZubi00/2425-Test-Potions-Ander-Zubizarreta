@@ -1,5 +1,5 @@
-import { Modifier_Attributes_Names } from "../constants/constants_potions";
-import { usePlayerData } from "../context/PlayerDataContext";
+//import { Modifier_Attributes_Names } from "../constants_potions";
+//import { usePlayerData } from "../context/PlayerDataContext";
 import { Modifiers } from "../interfaces/potions/Modifier";
 import Potion from "./Potion";
 

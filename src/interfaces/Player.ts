@@ -1,0 +1,32 @@
+import { Modifiers } from "./potions/Modifier";
+import { Disease } from "./potions/Disease";
+export interface Player {
+  attributes: Modifiers,
+  equipment: Object,
+  inventory: Object,
+  _id: string,
+  name: string,
+  nickname: string,
+  email: string,
+  avatar: string,
+  classroom_Id: string,
+  level: number,
+  experience: number,
+  is_active: boolean,
+  profile: Object,
+  tasks: string[],
+  gold: number,
+  created_date: Date,
+  socketId: string,
+  isInsideLab: boolean,
+  isInsideTower: boolean,
+  isInsideHall: boolean,
+  obituaryDiscovered: boolean,
+  fcm_token: string,
+  role: string,
+  cardId: string,
+  isBetrayer: boolean,
+  diseases: Disease[],
+  hasAngeloCaptured: boolean,
+  angeloInDungeon: boolean
+}

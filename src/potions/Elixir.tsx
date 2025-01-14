@@ -1,4 +1,4 @@
-import { Elixir_Values, Elixir_Values_Insanity } from "../constants/constants_potions";
+import { Elixir_Values, Elixir_Values_Insanity } from "../constants_potions";
 import { Modifiers } from "../interfaces/potions/Modifier";
 import Potion from "./Potion";
 

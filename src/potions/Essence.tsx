@@ -1,4 +1,4 @@
-import { Essence_Value } from "../constants/constants_potions";
+import { Essence_Value } from "../constants_potions";
 import { Modifiers } from "../interfaces/potions/Modifier";
 import Potion from "./Potion";
 
